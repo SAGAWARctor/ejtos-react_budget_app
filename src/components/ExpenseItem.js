@@ -25,7 +25,7 @@ const ExpenseItem = (props) => {
         const decreaseExpense = (name, cost) => {
             dispatch({
                 type: 'SUBB_EXPENSE',
-                payload: { name, cost }
+                payload: { name, cost: 10 }
             });
             };
 
